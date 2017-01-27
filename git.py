@@ -24,7 +24,7 @@ def net_is_up():
 
   for h in hosts:
     if ping(h):
-      final = proceso + ''' && ''' + githut
+      final = proceso  + githut
       subprocess.call( final, shell=True)
     
       print "[%s] Se Enviara a el prepositorio Remoto!" % time.strftime("%Y-%m-%d %H:%M:%S")
