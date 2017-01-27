@@ -1,0 +1,25 @@
+{
+  "name": "autGit",
+  "version": "0.1.0",
+  "description": "automatiza git ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joseGabriel06/autGit.git"
+  },
+  "keywords": [
+    "git",
+    "python",
+    "sh",
+    "linux"
+  ],
+  "author": "Jose Gabriel Guzman Lopez",
+  "license": "GPL",
+  "bugs": {
+    "url": "https://github.com/joseGabriel06/autGit/issues"
+  },
+  "homepage": "https://github.com/joseGabriel06/autGit#readme"
+}
