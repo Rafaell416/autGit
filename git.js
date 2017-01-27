@@ -9,7 +9,8 @@ if(stdout  =  "1" ){
 var s = require('child_process').exec, child;
 child = s(co,
   function (error, stdout, stderr) {
-    //console.log(stdout);    
+    //console.log(stdout);
+    console.log("No se Pudo Enviar A repositorio Remoto");
     if (error !== null) {
       console.log('exec error: ' + error);
     }
@@ -18,7 +19,8 @@ child = s(co,
 var x = require('child_process').exec, child;
 child = x(cog,
   function (error, stdout, stderr) {
-    console.log(stdout);    
+    //console.log(stdout);
+    console.log("Enviado A repositorrio Remoto");
     if (error !== null) {
       console.log('exec error: ' + error);
     }
