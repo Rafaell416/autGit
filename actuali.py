@@ -1,10 +1,12 @@
 import subprocess
 re="x"
-codigo = '''there_are_changes=$(git status | grep nothin)
-               if  $there_are_changes == "nothing to commit, working tree cleanw" ; then
-                	echo "No HAy Cambios !"
+codigo = ''' 
+               there_are_changes=$(git status | grep nothin)
+               
+               if [ $there_are_changes = = "nothing to commit, working tree cleanw" ];then
+                	echo "NO HAy Cambios !"
                else
-	              echo "Hay Cambios "
+	              echo "  Hay Cambios "
                fi
 
 
