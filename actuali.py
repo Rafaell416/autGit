@@ -1,13 +1,15 @@
 import subprocess
 re="x"
+codigo = '''there_are_changes=$(git status | grep nothin)
+               if  $there_are_changes == "nothing to commit, working tree cleanw" ; then
+                	echo "No HAy Cambios !"
+               else
+	              echo "Hay Cambios "
+               fi
 
-re = subprocess.call('there_are_changes=$(git status | grep nothin);echo $there_are_changes', shell=True )
+
+                '''
+re = subprocess.call(codigo, shell=True )
 
 
-
-
-if re == '0':
-	print "Hay Cambios En El Proyecto";
-else:
-	print "NO Hay Cambios En El Proyecto";
 
