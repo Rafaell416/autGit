@@ -1,4 +1,3 @@
 Python 
-shell script (linux)
-git 
+shell script (linux) 
 git hub 
