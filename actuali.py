@@ -3,7 +3,7 @@ re="x"
 codigo = ''' 
                there_are_changes=$(git status | grep nothin)
                
-               if [ $there_are_changes = = "nothing to commit, working tree cleanw" ];then
+               if [ $there_are_changes = = 'nothing to commit, working tree cleanw' ];then
                 	echo "NO HAy Cambios !"
                else
 	              echo "  Hay Cambios "
