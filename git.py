@@ -1,6 +1,6 @@
 #!/usr/local/bin/python
 import subprocess, time
-hosts = ('8.8.8.8', 'kernel.org', 'yahoo.com')
+hosts = ('8.8.8.8', 'kernel.org', 'github.com')
 def ping(host):
   ret = subprocess.call(['ping', '-c', '3', '-W', '5', host],
     stdout=open('/dev/null', 'w'),
