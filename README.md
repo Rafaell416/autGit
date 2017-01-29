@@ -1,5 +1,4 @@
-# autGit
- 
-python 100%
-nodejs 80%
-C      10%
+Python 
+shell script (linux)
+git 
+git hub 
